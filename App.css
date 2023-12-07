@@ -1,0 +1,62 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.main-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 30px; /* Increased padding for more space around the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin for more space between header and content */
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 20px; /* Increased margin between list items */
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px; /* Increased padding for larger buttons */
+  font-size: 16px; /* Increased font size for buttons */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Increased border-radius for rounded corners */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  padding: 30px; /* Increased padding for more space around the content */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
